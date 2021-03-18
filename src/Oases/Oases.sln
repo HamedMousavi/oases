@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oases.Web.Api", "Oases.Web.Api\Oases.Web.Api.csproj", "{A4532371-8DCD-49E1-84C9-3BF3DA98BDA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolidSoft.Web.Api", "SolidSoft.Web.Api\SolidSoft.Web.Api.csproj", "{712B4CF7-B6C5-4094-9AEC-E0AD1254BEE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidSoft.Web.Client", "SolidSoft.Web.Client\SolidSoft.Web.Client.csproj", "{E891AD77-55DC-4803-89BB-7D6804D6C3A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A4532371-8DCD-49E1-84C9-3BF3DA98BDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4532371-8DCD-49E1-84C9-3BF3DA98BDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4532371-8DCD-49E1-84C9-3BF3DA98BDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4532371-8DCD-49E1-84C9-3BF3DA98BDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712B4CF7-B6C5-4094-9AEC-E0AD1254BEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712B4CF7-B6C5-4094-9AEC-E0AD1254BEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712B4CF7-B6C5-4094-9AEC-E0AD1254BEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712B4CF7-B6C5-4094-9AEC-E0AD1254BEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E891AD77-55DC-4803-89BB-7D6804D6C3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E891AD77-55DC-4803-89BB-7D6804D6C3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E891AD77-55DC-4803-89BB-7D6804D6C3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E891AD77-55DC-4803-89BB-7D6804D6C3A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

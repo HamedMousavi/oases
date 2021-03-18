@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Oases.Web.Api
+namespace SolidSoft.Web.Api
 {
     public class Program
     {
